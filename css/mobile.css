@@ -1,0 +1,155 @@
+@media (max-width: 600px) {
+  body {
+    /* background-color: rgb(233, 233, 197); */
+    background-color: lightyellow;
+    /* background-color: yellow; */
+  }
+  div.navbar,
+  div.footer {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 10px 0px;
+    height: auto;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.623);
+  }
+
+  .navbar a:not(:first-child) {display:none;}
+  .navbar a.icon {
+    display: block;
+    height: inherit;
+    padding: 10px 15px;
+    position: absolute;
+    top: 10px;
+    right:5px;
+    border-radius: 5px;
+    float: right;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  a.navbar:hover {
+    background-color: rgba(255, 255, 255, 0.322);
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid rgba(255, 0, 0, 0.712);
+    border-right: 2px solid rgba(255, 0, 0, 0.712);
+  }
+  a.footer {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  div.banner {
+    min-height: 150px;
+    background-image: url(../media/2.gif);
+  }
+  h1.banner {
+    display: none;
+  }
+  div.course-container,.LMR-container {
+    background: none;
+    box-shadow: none;
+    margin:5px 0;
+    min-height: auto;
+  }
+  div.course-card {
+    width: 100%;
+    margin: 2px auto;
+    float: none;
+  }
+  div.course-img {
+    height: 200px;
+    background-color: rgba(134, 131, 131, 0.644);
+    opacity: 1;
+  }
+  div.course-img:hover {
+    opacity: 0.5;
+  }
+
+  /* TOPICS**************************************************************** */
+  div.inner-container {
+    display: block;
+    min-height: auto;
+    /* background-color: blue; */
+  
+  }
+  div.left,
+  .right {
+    background-color: rgba(138, 184, 138, 0.425);
+    width: 100%;
+  }
+  div.left {
+    border-radius: 20px 20px 0px 0px;
+  }
+  div.right {
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 0px;
+  }
+  div.middle {
+    background-color: rgba(138, 184, 138, 0.425);
+    width: 100%;
+    margin:0px auto 5px;
+    border-radius: 20px 20px 20px 20px ;
+  }
+  .f-left {
+    float: none;
+  }
+
+  div.topics-section {
+    height: auto;
+  }
+  
+  button.topic {
+    padding: 0px;
+    border: 0;
+    border-radius: 5px;
+  }
+  div.topic-details-section {
+    width: 100%;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 45% auto;
+    gap: 0px;
+  }
+  div.topic-card{ 
+    margin: 5px 0;
+  }
+  div.topic-img {
+    width: 100%;
+    min-height:90px;
+  }
+  .topic-detail {
+    margin: 2px;
+    font-size: 13px;
+  }
+ 
+  .d-none {
+    display:none;
+  }
+  .d-none-ls{
+    display: block;
+  }
+
+  /* Lacture************************************ */
+  div.LMR-lecture{
+    height: auto;
+  }
+  div.lecture-left{
+    height: 100vh;
+    margin-top: 5px;
+    overflow-y: auto;
+  }
+div.inner-vid{
+  background-color: rgb(195, 255, 203);
+}
+  iframe{
+    height:30vh;
+   
+  }
+  .p5{
+    padding: 5px;
+  }
+}
+
